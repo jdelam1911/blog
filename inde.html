@@ -12,18 +12,21 @@
   
 <body> 
     <header> 
-        <h1 class="logo"><a href="#">Your Blog</a></h1> 
+        <h1 class="logo"><a href="#">The Blog Spot, Man!</a></h1> 
+        <img src="./images/moon render.png" id="icon">
         <nav> 
             <ul> 
-                <li class="nav1"><a href="/">Home</a></li> 
+                <li class="nav1"><a href="/">Casa</a></li> 
                 <li class="nav1"> 
                       <a href="#" id="createPostBtn"> 
                           Create Post 
                       </a> 
                   </li> 
-                <li class="nav1"><a href="#">Contact</a></li> 
+                <li class="nav1"><a href="#">Dont contact me</a></li> 
             </ul> 
+          
         </nav> 
+        
     </header> 
   
     <main class="post-container"> 
@@ -35,7 +38,7 @@
                     <div class="upper"> 
                         <div class="title"> 
                             <label class="postheading" for="postTitle"> 
-                                  Title 
+                                  Nombre 
                               </label> 
                             <input type="text" class="postTitle"
                              id="postTitle" name="postTitle"
@@ -43,7 +46,7 @@
                         </div> 
                         <div class="category1"> 
                             <label class="postheading" for="postCategory"> 
-                                  Category 
+                                  Title 
                               </label> 
                             <input type="text" class="postCategory"
                              id="postCategory" name="postCategory" 
@@ -52,7 +55,7 @@
                     </div> 
   
                     <label class="postheading" for="postDescription"> 
-                          Description 
+                          Content 
                       </label> 
                     <textarea class="postDescription" id="postDescription" 
                                name="postDescription" autocomplete="off" 
@@ -84,11 +87,19 @@
     </main> 
   
     <footer> 
-        <p>/////</p> 
+        <p>Portfolio: Work In Progress</p>
+        <p></p>
+        <p>Created with Love :]</p> 
     </footer> 
   
     <!-- JavaScript file linked -->
     <script src="./assets/js/blog.js"></script> 
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function (){
+            document.body.classList.toggle("dark-theme")
+        }
+    </script>
 </body> 
   
 </html>
