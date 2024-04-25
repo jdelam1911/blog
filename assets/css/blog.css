@@ -5,7 +5,7 @@ body {
 	min-height: 100vh; 
 	display: flex; 
 	flex-direction: column; 
-    background-color: purple;
+    background-color: yellow;
 } 
 
 
@@ -247,7 +247,7 @@ footer {
 } 
 
 .postheading { 
-	color: #333; 
+	color: white; 
 	font-weight: bold; 
 } 
 
