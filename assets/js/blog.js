@@ -128,7 +128,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			.post-title[data-title= 
 				"${titleToDelete}"]`).closest('.post-box'); 
 
-			// Add fadeOut class to initiate the animation 
 			postToDelete.classList.add('fadeOut'); 
 
 			// Remove the post after the animation completes 
